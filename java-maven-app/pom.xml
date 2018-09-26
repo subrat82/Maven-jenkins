@@ -23,9 +23,10 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
         <configuration>
-          
+          <properties>
           <maven.compiler.source>1.6</maven.compiler.source>
           <maven.compiler.target>1.6</maven.compiler.target>
+          </properties>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
