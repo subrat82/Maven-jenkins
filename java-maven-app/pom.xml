@@ -49,7 +49,7 @@
                     <execution>
                         <phase>package</phase>
                         <goals>
-                            <goal>install</goal>
+                            <goal>clean</goal>
                       </goals>
                     </execution>
                 </executions>
