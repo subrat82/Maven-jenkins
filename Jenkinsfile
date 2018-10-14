@@ -30,7 +30,7 @@ stages{
     stage("Deploy"){
         steps{
             echo "Deploy"
-            sh'/opt/apache-maven-3.5.4/bin/mvn deploy'
+            //sh'/opt/apache-maven-3.5.4/bin/mvn deploy'
         }
     }
 }
